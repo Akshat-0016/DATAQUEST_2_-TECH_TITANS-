@@ -14,8 +14,9 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"],
+      "js": ["Content1.js"],
       "run_at": "document_idle"
     }
   ]
+
 }
