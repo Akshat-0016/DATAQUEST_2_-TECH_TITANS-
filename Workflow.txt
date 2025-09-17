@@ -1,0 +1,31 @@
+For the project the main idea is:
+    1>  +finding out what is the sensitive data? 
+        +what is the impact of it?
+        +how is the shared i,e means of sharing data?
+        +what is the target audience that is which dept of employees
+        +If the receiver is identified by the company's database
+    2>finding out the means from which the data is shared or exposed
+        +Mail.
+        +WhatsApp.
+        +MS Teams
+        +messages
+    3> Finding the patterns in the data
+        + pins
+        + OTPs
+        + passwords
+        + keys
+        + personal information
+        + account information
+    4> Identifying the patterns and categorizing patterns with the help of a metric- "Sensitivity Score"
+        + sensitive (OTPs, pins, passwords)
+        + careful (account information)
+        + informative (personal information)
+    5> Action on basis of sensitivity
+        + sensitive -> Block and inform correct authority
+        + careful -> request review
+        + informative -> make a log of activity
+
+What should we include in the code?:
+    1> Extracting data from files (.pdf, .csv, .jpeg)
+    2> Finding the sensitivity patterns and generating a sensitivity score
+    3> According to the sensitivity score, further actions that are to be enforced upon.
