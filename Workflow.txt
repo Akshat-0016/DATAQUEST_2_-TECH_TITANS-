@@ -29,3 +29,4 @@ What should we include in the code?:
     1> Extracting data from files (.pdf, .csv, .jpeg)
     2> Finding the sensitivity patterns and generating a sensitivity score
     3> According to the sensitivity score, further actions that are to be enforced upon.
+    4> Add a priority metric in UI to calibrate the sensitivity of a particular attribute.
